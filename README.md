@@ -11,7 +11,7 @@ You’ll need to install the necessary npm packages:
 
 ```bash
 npm install
-'''
+```
 
 ----
 
