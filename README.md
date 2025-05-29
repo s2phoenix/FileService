@@ -16,5 +16,5 @@ npm install
 ----
 
 # TEST
-http://localhost:3001/generate-csv=
-http://localhost:3001/generate-csv
+- http://localhost:3001/generate-csv
+- http://localhost:3001/generate-pdf
