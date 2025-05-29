@@ -16,5 +16,22 @@ npm install
 ----
 
 # TEST
-- http://localhost:3001/generate-csv
-- http://localhost:3001/generate-pdf
+```bash
+curl --location 'http://localhost:3001/generate-csv' \
+--header 'Content-Type: application/json' \
+--data '[
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "baskets": [
+        [
+            { "name": "apple", "price": "1.2", "expiryDate": "2025-06-01" },
+            { "name": "banana", "price": "0.5", "expiryDate": "2025-05-15" }
+        ],
+        [
+            { "name": "carrot", "price": "0.8", "expiryDate": "2025-04-30" }
+        ]
+        ]
+    }
+]'
+```
